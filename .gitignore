@@ -1,0 +1,16 @@
+# IntellijIdea files
+*.iml
+.idea
+
+#productions
+out
+target
+
+#git
+.git
+
+#archives
+*.zip
+
+#folders with _*
+_*
