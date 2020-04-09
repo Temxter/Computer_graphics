@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lab2_formats.jnlp">
+  <information>
+    <title>lab2_formats</title>
+    <vendor>Unknown</vendor>
+    <description>lab2_formats</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lab2_formats.jar" size="10176" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="400" main-class="main"  name="lab2_formats" />
+  <update check="background"/>
+</jnlp>

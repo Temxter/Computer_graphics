@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lab_3_static_filters.jnlp">
+  <information>
+    <title>lab_3_static_filters</title>
+    <vendor>Unknown</vendor>
+    <description>lab_3_static_filters</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lab_3_static_filters.jar" size="9432" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="MainFxml"  name="lab_3_static_filters" />
+  <update check="background"/>
+</jnlp>

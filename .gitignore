@@ -3,8 +3,11 @@
 .idea
 
 #productions
-out
 target
+#all bin expect "artifacts" folder
+!out/
+out/*
+!out/artifacts
 
 #git
 .git
