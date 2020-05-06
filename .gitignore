@@ -7,7 +7,7 @@ target
 #all bin expect "artifacts" folder
 !out/
 out/*
-!out/artifacts
+!out/artifacts/
 
 #git
 .git
