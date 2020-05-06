@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import javafx.scene.text.Text?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ViewController"
+            prefHeight="800.0" prefWidth="800.0">
+
+   <top>
+      <VBox>
+         <MenuBar>
+            <Menu text="File">
+               <MenuItem text="Save" onAction="#onSave" />
+               <MenuItem text="Exit" onAction="#onExit" />
+            </Menu>
+         </MenuBar>
+
+         <ToolBar>
+            <HBox alignment="CENTER" spacing="5">
+               <ComboBox fx:id="comboBox" onAction="#onComboBoxChanged"/>
+
+               <Text text="x0" fx:id="x0"/>
+               <TextField fx:id="xStart" text="0.0" prefWidth="60"/>
+               <Text text="x1" fx:id="x1"/>
+               <TextField fx:id="xFinish" text="100.0" prefWidth="60"/>
+               <Text text="k" fx:id="k"/>
+               <TextField fx:id="kText" text="1" prefWidth="60"/>
+               <Text text="b" fx:id="b"/>
+               <TextField fx:id="bText" text="1" prefWidth="60"/>
+
+               <Button fx:id="buttonOK" text="OK" onAction="#onButtonOK"/>
+
+               <Button text="Clear" onAction="#onButtonClear"/>
+            </HBox>
+         </ToolBar>
+      </VBox>
+   </top>
+
+   <center>
+      <Canvas fx:id="canvas" width="800.0" height="800.0" />
+   </center>
+
+</BorderPane>
