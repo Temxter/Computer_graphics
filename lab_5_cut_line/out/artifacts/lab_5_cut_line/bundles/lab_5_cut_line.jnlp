@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lab_5_cut_line.jnlp">
+  <information>
+    <title>lab_5_cut_line</title>
+    <vendor>Unknown</vendor>
+    <description>lab_5_cut_line</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lab_5_cut_line.jar" size="9314" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="800" main-class="MainFxml"  name="lab_5_cut_line" />
+  <update check="background"/>
+</jnlp>
